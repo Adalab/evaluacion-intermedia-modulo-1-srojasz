@@ -11,3 +11,52 @@ html{
   margin: 0;
   font-family: "Rubik";
 }
+
+.header{
+  width: 100%;
+  /* position: fixed;
+  top: 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+
+
+}
+
+.logo__container{
+  width: 15.5rem;
+  margin: 1rem auto 1rem auto;
+
+}
+
+.logo__img{
+  width: 100%;
+}
+
+.nav {
+  align-self: center
+
+}
+
+.nav__list{
+  background-color: green;
+list-style: none;
+padding-inline-start: 0em;
+display: flex;
+}
+
+.nav__item{
+  display: inline;
+  margin: 0 2rem 0 0;
+  text-align: center;
+  font-size: 2rem;
+  
+  
+}
+
+.nav__link{
+  text-decoration: none;
+  color: white;
+}
