@@ -12,6 +12,8 @@ html{
   font-family: "Rubik";
 }
 
+/* Header */
+
 .header{
   width: 100%;
   /* position: fixed;
@@ -51,7 +53,7 @@ display: flex;
   display: inline;
   margin: 0 2rem 0 0;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
   
   
 }
@@ -59,4 +61,25 @@ display: flex;
 .nav__link{
   text-decoration: none;
   color: white;
+}
+
+/* Main */
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3CDBC0;
+}
+
+.main__text{
+  background-color: red;
+  color: #FFFFFF;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.main__text .text{
+  display: block;
 }
