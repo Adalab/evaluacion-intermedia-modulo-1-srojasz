@@ -52,27 +52,34 @@ margin-bottom: 1.3rem;
 
 .nav__item{
   display: inline;
-  padding: 0;
-  text-align: center;
+    text-align: center;
   font-size: 1.6rem;
+  text-transform: uppercase;
   
   
 }
 
+
+
+
+
 .item__1{
-  margin-right: 2rem;
+  margin-right: 0;
 }
 
 
 .nav__link{
   text-decoration: none;
   color: #4a4a4a;
+  padding: 1rem;
 }
+
 
 /* Main */
 
 .main {
   height: 100vh;
+  min-height: 35rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,6 +91,7 @@ margin-bottom: 1.3rem;
   color: #FFFFFF;
   font-size: 3rem;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .main__text .text{
@@ -108,13 +116,17 @@ margin-bottom: 1.3rem;
 font-size: 4rem;
 }
 
-.item1{
-  padding-right: 2rem;
+
+
+.item1 .nav__link {
+  padding-right: 1rem;
+  
 
 }
 
-.item2{
-  padding-right: 3rem;
+.item2 .nav__link{
+  padding-right: 2rem;
+  
 }
 
 }
